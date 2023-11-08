@@ -19,11 +19,20 @@ const UserAvatar = ({
           alt={name}
           width={40}
           height={40}
+          referrerPolicy="no-referrer"
           className="rounded-full"
         />
       )}
       {/* <AvatarImage src="https://github.com/shadcn.png" /> */}
-      <AvatarFallback>CN</AvatarFallback>
+      <AvatarFallback
+        delayMs={1000}
+        className="dark:bg-white dark:text-black text-lg"
+      >
+        {name
+          ?.split(" ")
+          .map((n) => n[0])
+          .join("")}
+      </AvatarFallback>
     </Avatar>
   );
 };
