@@ -6,7 +6,7 @@ import Header from "@/components/Header";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Uni Talk | codebycyrus",
+  title: "Uni Chat | codebycyrus",
   description:
     "Complete Saas built by typescript + next js + react + firebase + tailwindcss + shadcn + stripe  ",
 };
