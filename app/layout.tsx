@@ -5,7 +5,7 @@ import Header from "@/components/Header";
 import { ThemeProvider } from "@/components/ThemeProvider";
 import ClientProviders from "@/components/ClientProviders";
 
-const inter = Inter({ subsets: ["latin"] });
+// const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title: "Uni Chat | codebycyrus",
@@ -21,7 +21,7 @@ export default function RootLayout({
   return (
     <ClientProviders>
       <html lang="en">
-        <body className={inter.className}>
+        <body className="flex flex-col min-h-screen">
           <ThemeProvider
             attribute="class"
             defaultTheme="system"
