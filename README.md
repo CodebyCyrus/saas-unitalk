@@ -1,5 +1,23 @@
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
+👉 How to leverage the power of the Firebase Extension called "Run Payments with Stripe", connecting your entire Firebase setup to Stripe seamlessly!
+👉 Learn to use the 'Translate Text in Firestore' Firebase Extension to dynamically translate user's messages into several languages in REAL-TIME!
+👉 How to leverage Firebase v9 including the Firestore Database & Firebase Authentication
+👉 How to Implement Stripe Checkout sessions to subscribe a user to payments!
+👉 How to use Stripe Webhooks to dynamically update our Firestore database when Stripe events occur!
+👉 Create a Beautiful UI & UX for our SaaS platform using the highly Popular Shadcn!
+👉 How to correctly Validate forms with Zod to ensure Type Safety!
+👉 How to leverage Global State Management with Zustand!
+👉 Learn how to use NextAuth Middleware to protect page routes and API routes
+👉 Learn how to implement Firebase Rules to secure your Firestore Database
+👉 How to build a Login and Logout Authentication flow using NextAuth on Next.js 13!
+👉 How to use Skeleton Loaders whilst data is fetched!
+👉 Learn to create Custom Hooks to simplify your code!
+👉 How to build a beautiful SaaS with Tailwind CSS!
+👉 Learn how to implement Dark Mode toggling to update the UI based on user preference!
+👉 How to use TypeScript to reduce the overall number of Bugs and Errors
+👉 How to deploy the final build on Vercel!
+
 ## Getting Started
 
 First, run the development server:
@@ -34,4 +52,5 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+
 # saas-unitalk
