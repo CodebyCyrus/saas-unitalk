@@ -3,13 +3,14 @@ import { Inter } from "next/font/google";
 import "./globals.css";
 import Header from "@/components/Header";
 import { ThemeProvider } from "@/components/ThemeProvider";
+import ClientProviders from "@/components/ClientProviders";
 
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title: "Uni Chat | codebycyrus",
   description:
-    "Complete Saas built by typescript + next js + react + firebase + tailwindcss + shadcn + stripe  ",
+    "Complete Saas built by typescript , next js , react , firebase , tailwindcss , shadcn , stripe  ",
 };
 
 export default function RootLayout({
@@ -18,16 +19,20 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="en">
-      <ThemeProvider
-        attribute="class"
-        defaultTheme="system"
-        enableSystem
-        disableTransitionOnChange
-      >
-        <Header />
-        <body className={inter.className}>{children}</body>
-      </ThemeProvider>
-    </html>
+    <ClientProviders>
+      <html lang="en">
+        <body className={inter.className}>
+          <ThemeProvider
+            attribute="class"
+            defaultTheme="system"
+            enableSystem
+            disableTransitionOnChange
+          >
+            <Header />
+            {children}
+          </ThemeProvider>
+        </body>
+      </html>
+    </ClientProviders>
   );
 }
