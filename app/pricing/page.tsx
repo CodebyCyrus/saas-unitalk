@@ -3,12 +3,12 @@ import { PricingCards } from "@/components/PricingCards";
 const PricingPage = () => {
   return (
     <div className="isolate overflow-hidden bg-gray-900">
-      <div className="mx-auto max-w-7xl px-6 pb-96 pt-24 text-center sm:pt-32 lg:px-8">
+      <div className="mx-auto max-w-7xl px-6 -mt-20 pb-96 pt-24 text-center sm:pt-32 lg:px-8">
         <div className="mx-auto max-w-4xl">
-          <h2 className="text-base font-semibold leading-7 text-indigo-400">
+          <h1 className=" text-4xl font-bold  leading-7 text-indigo-400 mb-7">
             Pricing
-          </h2>
-          <p className="mt-2 text-4xl font-bold tracking-tight text-white sm:text-5xl">
+          </h1>
+          <p className="mt-2 text-2xl font-semibold tracking-tight text-white sm:text-2xl">
             The right price for you,{" "}
             <br className="hidden sm:inline lg:hidden" />
             whoever you are
@@ -38,7 +38,7 @@ const PricingPage = () => {
           </svg>
         </div>
       </div>
-      <div className="flow-root  pb-24 sm:pb-32">
+      <div className="flow-root  pb-24 sm:pb-10">
         <div className="-mt-80">
           <PricingCards redirect={true} />
         </div>

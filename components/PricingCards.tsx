@@ -35,8 +35,8 @@ const tiers = [
 
 export const PricingCards = ({ redirect }: { redirect: boolean }) => {
   return (
-    <div>
-      <div className="mx-auto grid max-w-md grid-cols-1 gap-8 lg:max-w-4xl lg:grid-cols">
+    <div className="">
+      <div className="mx-auto grid max-w-md grid-cols-1 gap-8 lg:max-w-4xl lg:grid-cols-2">
         {tiers.map((tier) => (
           <div
             key={tier.id}
